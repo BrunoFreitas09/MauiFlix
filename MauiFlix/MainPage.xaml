@@ -9,7 +9,7 @@
                 RowSpacing="10" ColumnSpacing="10" 
               Padding="0" Margin="10"
               VerticalOptions="FillAndExpand"
-              RowDefinitions="*, *, *, *, *">
+              RowDefinitions="*, *, *, *, *" >
             <Button Grid.Row="0" Grid.Column="0" Text="Aventura"
                     Clicked="Button_Clicked"/>
             <Button Grid.Row="0" Grid.Column="1" Text="Comedia"/>
