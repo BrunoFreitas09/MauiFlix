@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiFlix.Categorias.Aventura"
              Title="Aventura">
-    
-        <Grid RowDefinitions="300,300,300"
+
+    <Grid RowDefinitions="300,300,300"
                   ColumnDefinitions="*, *"
-                  Padding="5"
-                    <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
+                  Padding="5">
+        <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
                                  Source="Aventura_TopGun.jpg" x:Name="btnTopGun"
                                  Clicked="btnTopGun_Clicked" />
 

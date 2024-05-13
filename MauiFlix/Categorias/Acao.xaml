@@ -4,14 +4,14 @@
              x:Class="MauiFlix.Categorias.Acao"
              Title="Acao">
 
-            <Grid RowDefinitions="300, 300, 300"
+    <Grid RowDefinitions="300, 300, 300"
                   ColumnDefinitions="*, *"
-                  Padding="5"
-                    
-                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
+                  Padding="5">
+
+        <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
                          Source="Sus_batma.jpg" x:Name="btnbatma"
                          Clicked="btnbatma_Clicked"/>
-                
+
         <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0" 
                              Source="Sus_batmaVssuperman.jpg" x:Name="btnbatmaVssuperman"
                              Clicked="btnbatmaVssuperman_Clicked"/>
@@ -21,5 +21,5 @@
                      Clicked="btnimages_Clicked"/>
 
 
-        <Grid/>
+    </Grid>
 </ContentPage>
