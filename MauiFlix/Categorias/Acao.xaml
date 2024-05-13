@@ -8,10 +8,10 @@
                   ColumnDefinitions="*, *"
                   Padding="5"
                     
-                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
+                 <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
                          Source="Sus_batma.jpg" x:Name="btnbatma"
                          Clicked="btnbatma_Clicked"/>
-
+                
         <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0" 
                              Source="Sus_batmaVssuperman.jpg" x:Name="btnbatmaVssuperman"
                              Clicked="btnbatmaVssuperman_Clicked"/>
