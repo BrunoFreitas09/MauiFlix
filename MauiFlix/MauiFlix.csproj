@@ -63,6 +63,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Filmes\Sus_batmaVsupermen.xaml.cs">
+	    <DependentUpon>Sus_batmavsupermen.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Categorias\Acao.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -75,7 +81,7 @@
 	  <MauiXaml Update="Filmes\Sus_batma.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Filmes\Sus_batmaVsupermen.xaml">
+	  <MauiXaml Update="Filmes\Sus_batmavsupermen.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\Sus_images.xaml">
