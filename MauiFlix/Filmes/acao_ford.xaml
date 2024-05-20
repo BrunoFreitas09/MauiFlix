@@ -23,6 +23,12 @@
                     <Label Text="Ana Boden, Ryan Fleck" Style="{StaticResource textoTitulo}"/>
 
                 </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+                    <Label Text="Sinopse" Style="{StaticResource titulo}" />
+
+                    <Label x:Name="Sinopse" Text="Textão sô"
+                           FontSize="Medium" Padding="5" />
+                </StackLayout>
             </Grid>
         </ScrollView>
     </Grid>
