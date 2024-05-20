@@ -6,4 +6,19 @@ public partial class infantil : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btnpanda_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btntoy_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnup_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

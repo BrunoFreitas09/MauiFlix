@@ -8,16 +8,16 @@
                  Padding="5">
 
         <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
-                        Source=".jpg" x:Name=""
-                        Clicked=""/>
+                        Source="drama_deusnaomorreu.jpg" x:Name="btndeus"
+                        Clicked="btndeus_Clicked"/>
 
         <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0" 
-                            Source=".jpg" x:Name=""
-                            Clicked=""/>
+                            Source="drama_misterioparis.jpg" x:Name="btnmisterio"
+                            Clicked="btnmisterio_Clicked"/>
 
         <ImageButton Aspect="AspectFill" Grid.Column="2" Grid.Row="0" 
-                    Source=".jpg" x:Name=""
-                    Clicked=""/>
+                    Source="drama_pelafe.jpg" x:Name="btnpelafe"
+                    Clicked="btnpelafe_Clicked"/>
 
 
     </Grid>

@@ -6,4 +6,19 @@ public partial class ficcao : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btndonzela_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btninterestelar_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnelisium_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

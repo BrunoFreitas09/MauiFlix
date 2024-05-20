@@ -8,17 +8,16 @@
                   ColumnDefinitions="*, *"
                   Padding="5">
         <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
-                                 Source="aventura_topgun.jpg" x:Name="btntopgun"
-                                 Clicked="btnTopGun_Clicked" />
+                                 Source="aventura_disney.jpg" x:Name="btndisney"
+                                 Clicked="btndisney_Clicked" />
 
-            <ImageButton Grid.Column="1" Grid.Row="0" Source="aventura_capameri.jpg"
-                                 x:Name="btncapAmeri" Clicked="btncapAmeri_Clicked"/>
+            <ImageButton Grid.Column="1" Grid.Row="0" Source="aventura_miranha.jpg"
+                                 x:Name="btnmiranha" Clicked="btnmiranha_Clicked"/>
 
-            <ImageButton Grid.Column="2" Grid.Row="0" Source="aventura_tropaelite.jpg"
-                             x:Name="btnTropaElite" Clicked="btnTropaElite_Clicked" />
+            <ImageButton Grid.Column="2" Grid.Row="0" Source="aventura_piratas.jpg"
+                             x:Name="btnpiratas" Clicked="btnpiratas_Clicked" />
 
-            <ImageButton Grid.Column="3" Grid.Row="0" Source="tropaelite" 
-                             x:Name="btnVerImagem" Clicked="btnVerImagem_Clicked" />
+
         </Grid>
 
 </ContentPage>

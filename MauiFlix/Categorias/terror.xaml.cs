@@ -6,4 +6,19 @@ public partial class terror : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btntelefone_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnpanico_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnresident_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

@@ -26,4 +26,19 @@ public partial class Aventura : ContentPage
     {
 
     }
+
+    private void btndisney_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnmiranha_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnpiratas_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

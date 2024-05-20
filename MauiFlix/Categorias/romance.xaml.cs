@@ -6,4 +6,19 @@ public partial class romance : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btnantesdevc_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnlugares_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnestrelas_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

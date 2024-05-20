@@ -6,4 +6,9 @@ public partial class guerra : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btnassassinos_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

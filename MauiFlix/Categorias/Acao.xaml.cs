@@ -26,4 +26,34 @@ public partial class Acao : ContentPage
     {
 
     }
+
+    private void fordbtn_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void frontlinebtn_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void furiososbtn_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnfuriosos_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnfrontline_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void btnford_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }
