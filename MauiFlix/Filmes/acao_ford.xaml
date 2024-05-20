@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiFlix.Filmes.acao_ford"
+             Title="acao_ford"
+             BackgroundColor="#2f2f30">
+    <Grid RowDefinitions="*, *" ColumnDefinitions="*">
+        <WebView Grid.Column="0" Grid.Row="0"
+                 Source="https://www.youtube.com/watch?v=ltyHvf2HCPU" />
+
+        <ScrollView Grid.Row="1" Grid.Column="0">
+            <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
+                <Image Grid.Column="0" Grid.Row="0"
+                       x:Name="poster" HeightRequest="300" />
+                <StackLayout VerticalOptions="CenterAndExpand"
+                             Grid.Column="1" Grid.Row="0">
+                    <Label Text="Data de lançamento"
+                           Style="{StaticResource titulo}" />
+                    <Label Text="14 de novembro de 2019"
+                           Style="{StaticResource textoTitulo}" />
+
+                    <Label Text="Direção" Margin="0, 20, 0, 0" Style="{StaticResource titulo}"/>
+                    <Label Text="Ana Boden, Ryan Fleck" Style="{StaticResource textoTitulo}"/>
+
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>
