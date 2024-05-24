@@ -63,6 +63,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Filmes\Sus_batma.xaml.cs">
+	    <DependentUpon>sus_batma.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Filmes\sus_batmavsupermen.xaml.cs">
+	    <DependentUpon>sus_batmavsupermen.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Filmes\Sus_images.xaml.cs">
+	    <DependentUpon>sus_images.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Categorias\Acao.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -201,13 +213,13 @@
 	  <MauiXaml Update="Filmes\romance_lugares.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Filmes\Sus_batma.xaml">
+	  <MauiXaml Update="Filmes\sus_batma.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\sus_batmavsupermen.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Filmes\Sus_images.xaml">
+	  <MauiXaml Update="Filmes\sus_images.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Filmes\terror_panico.xaml">
