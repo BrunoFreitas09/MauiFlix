@@ -14,7 +14,7 @@
                        x:Name="poster" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand"
                              Grid.Column="1" Grid.Row="0">
-                    
+
                     <Label Text="Data de lançamento"
                            Style="{StaticResource titulo}" />
                     <Label Text="6 de dezembro de 2013"
@@ -33,5 +33,5 @@
             </Grid>
         </ScrollView>
     </Grid>
-</ContentPage>>
+</ContentPage>
 

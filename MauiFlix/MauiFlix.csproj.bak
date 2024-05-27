@@ -61,24 +61,6 @@
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
-
-	<ItemGroup>
-	  <Compile Update="Filmes\Documentario_racionais.xaml.cs">
-	    <DependentUpon>documentario_racionais.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Filmes\documentario_senna.xaml.cs">
-	    <DependentUpon>documentario_senna.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Filmes\Sus_batma.xaml.cs">
-	    <DependentUpon>sus_batma.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Filmes\sus_batmavsupermen.xaml.cs">
-	    <DependentUpon>sus_batmavsupermen.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Filmes\Sus_images.xaml.cs">
-	    <DependentUpon>sus_images.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
 	
 	<ItemGroup>
 	  <MauiXaml Update="Filmes\documentario_racionais.xaml">

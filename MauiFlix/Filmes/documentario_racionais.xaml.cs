@@ -1,8 +1,8 @@
 namespace MauiFlix.Filmes;
 
-public partial class documentario_racionais : ContentPage
+public partial class Documentario_racionais : ContentPage
 {
-	public documentario_racionais()
+	public Documentario_racionais()
 	{
 		InitializeComponent();
 	}
