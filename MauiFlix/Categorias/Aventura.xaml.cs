@@ -9,7 +9,7 @@ public partial class Aventura : ContentPage
 
     private void btnTopGun_Clicked(System.Object sender, System.EventArgs e)
     {
-        Source = "https://www.youtube.com/watch?v=hujU0dw6Erk";
+      
     }
 
     private void btncapAmeri_Clicked(System.Object sender, System.EventArgs e)
@@ -34,7 +34,7 @@ public partial class Aventura : ContentPage
 
     private void btnmiranha_Clicked(object sender, EventArgs e)
     {
-        Source = "https://www.youtube.com/watch?v=hujU0dw6Erk";
+     
     }
 
     private void btnpiratas_Clicked(object sender, EventArgs e)
