@@ -75,7 +75,7 @@
 	  <Compile Update="Filmes\sus_batmavsupermen.xaml.cs">
 	    <DependentUpon>sus_batmavsupermen.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Filmes\Sus_images.xaml.cs">
+	  <Compile Update="Filmes\sus_images.xaml.cs">
 	    <DependentUpon>sus_images.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
